@@ -1,0 +1,30 @@
+{
+  "name": "nodebb-plugin-portal-homepage",
+  "version": "0.0.1",
+  "description": "Allows you to create portals homepage for nodebb-plugin-portal-mark",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erlgo/nodebb-plugin-portal-homepage"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "portal",
+    "homepage",
+    "tiled widget"
+  ],
+  "author": {
+    "name": "erlgo",
+    "email": "erlgo@ipc6.com"
+  },
+  "nbbpm": {
+    "compatibility": "^0.6.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erlgo/nodebb-plugin-portal-homepage/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md"
+}

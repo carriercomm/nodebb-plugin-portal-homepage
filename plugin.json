@@ -1,0 +1,24 @@
+{
+	"id": "nodebb-plugin-portal-homepage",
+	"name": "Portals Homepage for Portal Mark",
+	"description": "Allows you to create portals homepage for nodebb-plugin-portal-mark",
+	"url": "https://github.com/erlgo/nodebb-plugin-portal-homepage",
+	"library": "./index.js",
+	"less": [
+		"static/style.less"
+	],
+	"hooks": [{
+		"hook": "static:app.load",
+		"method": "init"
+	}, {
+		"hook": "filter:templates.get_config",
+		"method": "replaceRouter"
+	}, {
+		"hook": "filter:header.build",
+		"method": "buildHeader"
+	}, {
+		"hook": "filter:widgets.getAreas",
+		"method": "getWidgetAreas"
+	}],
+	"templates": "./static/templates"
+}
